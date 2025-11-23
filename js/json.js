@@ -76,6 +76,19 @@ function showTopFlavors(jsonObj) {
 
         article.appendChild(moodRing);
 
+        //Cute message using calories
+            let calorieMsg = document.createElement('p');
+            let cal = topFlavors[i].calories;
+
+            if (cal > 380) {
+            calorieMsg.textContent = "This flavour has main character energy (high calories).";
+            } else {
+              calorieMsg.textContent = "This flavour is soft and chill (lower calories).";
+            }
+
+            article.appendChild(calorieMsg);
+
+
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
         article.appendChild(h2);
         article.appendChild(img);
