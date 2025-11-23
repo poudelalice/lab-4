@@ -25,6 +25,30 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+
+  {
+    "name": "Sweet Strawberry Magic",
+    "calories": 410,
+    "type": "ice cream",
+    "ingredients": [
+    "strawberry chunks",
+    "purple stardust",
+    "meteor sugar"
+  ],
+  "image": "ice-cream-xtra1.svg"
+  },
+   {
+    "name": "Mystery Fairy Lemonade",
+    "calories": 320,
+    "type": "sorbet",
+    "ingredients": [
+    "lemon zest",
+    "fairy fruit blend",
+    "sparkle syrup"
+    ],
+    "image": "ice-cream-xtra2.svg"
     }
+
   ]
 }
