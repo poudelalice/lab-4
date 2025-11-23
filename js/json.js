@@ -64,6 +64,18 @@ function showTopFlavors(jsonObj) {
             ul.appendChild(listItem);
 
         }
+
+        //flavour Mood Ring (based only on type)
+        let moodRing = document.createElement('p');
+
+        if (topFlavors[i].type === "ice cream") {
+        moodRing.textContent = "Mood Ring: Cozy winter girl vibes ~ soft scarf, warm sweater, introverted energy.";
+        } else if (topFlavors[i].type === "sorbet") {
+        moodRing.textContent = "Mood Ring: Energetic fruity summer vibes ~ spontaneous, sunny, always planning beach trips.";
+        }
+
+        article.appendChild(moodRing);
+
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
         article.appendChild(h2);
         article.appendChild(img);
